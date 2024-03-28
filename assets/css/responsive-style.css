@@ -1,0 +1,140 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	br {
+		display: none;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		letter-spacing: 0px !important;
+	}
+
+	.hero-content h1 {
+		font-size: 7em;
+		padding-left: 0;
+		padding-top: 0.5em;
+		text-align: center;
+	}
+
+	.hero-btns {
+		justify-content: center;
+		margin-top: 0;
+	}
+
+	.hero-col {
+		min-height: 50em;
+	}
+
+	.h-span {
+		font-size: 2em;
+	}
+
+	.info-inner {
+		padding: 1em 1em 5em 1em;
+	}
+
+	.info-blocks {
+		gap: 7em;
+		margin-top: 0;
+		flex-direction: column;
+	}
+
+	.about-block {
+		width: 100%;
+		min-height: 25em;
+	}
+
+	.info-one-mbl {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-block h3 {
+		font-size: 4em;
+	}
+
+	.about-block p {
+		font-size: 1.75em;
+		text-align: center;
+	}
+
+	.token-block p {
+		padding-left: 0;
+	}
+
+	.contract-dd {
+		margin: 0 0em;
+		margin-top: 8em;
+	}
+
+	.contract-input h4 {
+		font-size: 2em;
+	}
+
+	.copy-span {
+		font-size: 2em;
+	}
+
+	.hero-sec {
+		font-size: 1.5vw;
+	}
+
+	.info-sec {
+		font-size: 1.5vw;
+	}
+}
+
+@media (max-width: 570px) {
+	.contract-dd {
+		flex-direction: column;
+		gap: 1em;
+	}
+
+	.contract-input {
+		width: 100%;
+	}
+
+	.contract-copy-d {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.hero-sec {
+		font-size: 1.75vw;
+	}
+
+	.hero-col {
+		min-height: 42em;
+	}
+
+	.info-sec {
+		font-size: 1.75vw;
+	}
+
+	.about-block h3 {
+		flex-direction: column-reverse;
+	}
+}
